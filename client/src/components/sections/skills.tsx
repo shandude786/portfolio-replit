@@ -34,15 +34,15 @@ export default function Skills() {
     <section id="skills" className="section-padding bg-muted/30">
       <div className="container-custom">
         <div className="text-center mb-16">
-          <h2 className="text-3xl sm:text-4xl font-bold mb-4 scroll-animate">Technical Skills</h2>
-          <p className="text-muted-foreground max-w-2xl mx-auto scroll-animate">
+          <h2 className="text-3xl sm:text-4xl font-bold mb-4">Technical Skills</h2>
+          <p className="text-muted-foreground max-w-2xl mx-auto">
             Technologies and tools I work with to build amazing applications
           </p>
         </div>
 
         <div className="grid lg:grid-cols-2 gap-12 mb-16">
           {/* Frontend Skills */}
-          <Card className="scroll-animate hover-lift">
+          <Card className="hover-lift">
             <CardHeader>
               <CardTitle className="text-center">Frontend Technologies</CardTitle>
             </CardHeader>
@@ -54,7 +54,7 @@ export default function Skills() {
           </Card>
 
           {/* Backend & Tools */}
-          <Card className="scroll-animate hover-lift" style={{ animationDelay: '0.2s' }}>
+          <Card className="hover-lift">
             <CardHeader>
               <CardTitle className="text-center">Backend & Tools</CardTitle>
             </CardHeader>
@@ -67,7 +67,7 @@ export default function Skills() {
         </div>
 
         {/* Technology Icons */}
-        <Card className="scroll-animate hover-lift" style={{ animationDelay: '0.4s' }}>
+        <Card className="hover-lift">
           <CardHeader>
             <CardTitle className="text-center">Technologies I Work With</CardTitle>
           </CardHeader>

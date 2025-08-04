@@ -19,15 +19,15 @@ export default function About() {
     <section id="about" className="section-padding bg-background">
       <div className="container-custom">
         <div className="text-center mb-16">
-          <h2 className="text-3xl sm:text-4xl font-bold mb-4 scroll-animate">About Me</h2>
-          <p className="text-muted-foreground max-w-2xl mx-auto scroll-animate">
+          <h2 className="text-3xl sm:text-4xl font-bold mb-4">About Me</h2>
+          <p className="text-muted-foreground max-w-2xl mx-auto">
             Learn more about my journey as a frontend developer
           </p>
         </div>
 
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           {/* Professional Image */}
-          <div className="scroll-animate">
+          <div>
             <div className="aspect-square bg-gradient-to-br from-primary to-purple-600 rounded-2xl flex items-center justify-center relative overflow-hidden">
               <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent"></div>
               <div className="relative z-10 text-center text-white">
@@ -43,7 +43,7 @@ export default function About() {
           </div>
 
           {/* Content */}
-          <div className="scroll-animate">
+          <div>
             <h3 className="text-2xl font-bold mb-6">Dynamic React.js / Next.js Developer</h3>
 
             <p className="text-muted-foreground mb-6 leading-relaxed">

@@ -60,15 +60,15 @@ export default function Contact() {
     <section id="contact" className="section-padding bg-background">
       <div className="container-custom">
         <div className="text-center mb-16">
-          <h2 className="text-3xl sm:text-4xl font-bold mb-4 scroll-animate">Get In Touch</h2>
-          <p className="text-muted-foreground max-w-2xl mx-auto scroll-animate">
+          <h2 className="text-3xl sm:text-4xl font-bold mb-4">Get In Touch</h2>
+          <p className="text-muted-foreground max-w-2xl mx-auto">
             Ready to discuss your next project? Let's build something amazing together.
           </p>
         </div>
 
         <div className="grid lg:grid-cols-2 gap-12">
           {/* Contact Information */}
-          <div className="scroll-animate">
+          <div>
             <h3 className="text-2xl font-bold mb-8">Let's Talk</h3>
 
             <div className="space-y-6 mb-8">
@@ -146,7 +146,7 @@ export default function Contact() {
           </div>
 
           {/* Contact Form */}
-          <Card className="scroll-animate hover-lift" style={{ animationDelay: '0.2s' }}>
+          <Card className="hover-lift">
             <CardContent className="p-6">
               <form onSubmit={handleSubmit} className="space-y-6">
                 <div className="grid md:grid-cols-2 gap-6">

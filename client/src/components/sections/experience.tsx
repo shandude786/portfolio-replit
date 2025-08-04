@@ -15,8 +15,8 @@ export default function Experience() {
     <section id="experience" className="section-padding bg-muted/30">
       <div className="container-custom">
         <div className="text-center mb-16">
-          <h2 className="text-3xl sm:text-4xl font-bold mb-4 scroll-animate">Work Experience</h2>
-          <p className="text-muted-foreground max-w-2xl mx-auto scroll-animate">
+          <h2 className="text-3xl sm:text-4xl font-bold mb-4">Work Experience</h2>
+          <p className="text-muted-foreground max-w-2xl mx-auto">
             My professional journey in software development
           </p>
         </div>
@@ -26,7 +26,7 @@ export default function Experience() {
             const IconComponent = iconMap[experience.icon as keyof typeof iconMap] || Briefcase;
             
             return (
-              <div key={experience.id} className={`timeline-item scroll-animate`} style={{ animationDelay: `${index * 0.1}s` }}>
+              <div key={experience.id} className="timeline-item">
                 <Card className="timeline-content">
                   <CardContent className="p-6">
                     <div className="flex items-center mb-4">
